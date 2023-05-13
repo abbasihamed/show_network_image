@@ -29,6 +29,7 @@ class _AppImageState extends State<AppImage> {
   }
 
   changeToHtml(String src) {
+    // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(
       src,
       (int id) => html.ImageElement()..src = src,

@@ -1,5 +1,5 @@
 name: show_network_image
-description: Display images without cors.
+description: A package to display images without cors on canvaskit.
 version: 0.0.1
 homepage: https://github.com/abbasihamed/show_network_image.git
 
